@@ -1,0 +1,62 @@
+
+/* Global style*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #070707;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+.title {
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-size: 48px;
+    /*font-style: normal;*/
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+
+}
+
+/* Global style End */
+
+/* Section Hero */
+
+.hero__img {
+    max-width: 970px;
+    margin: 0% auto;
+}
+
+/* Section Hero End */
+
+/* Section About */
+
+.about__container {
+    max-width: 480px;
+    text-align: center;
+}
