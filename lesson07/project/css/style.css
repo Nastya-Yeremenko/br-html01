@@ -12,6 +12,8 @@ body {
     font-family:'Open Sans', sans-serif;
     font-size: 18px;
     line-height: normal;
+    /* max-width: 970px;
+    text-align: center; */
 
 }
 
@@ -26,7 +28,7 @@ img {
 
 .title {
     color: black;
-    font-family:'Open Sans', sans-serif;
+    /*font-family:'Open Sans', sans-serif;*/
     font-size: 48px;
     /*font-style: normal;*/
     font-weight: 700;
@@ -36,11 +38,19 @@ img {
 
 h2 {
     text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .text {
     text-align: center;
-
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* Global style End */
@@ -50,13 +60,114 @@ h2 {
 .hero__img {
     max-width: 970px;
     margin: 0% auto;
+
 }
 
 /* Section Hero End */
 
+
 /* Section About */
 
-.about__container {
-    max-width: 480px;
+/*.about__container {
+
+} */
+
+/* Section About End*/
+
+
+
+/* Section Skills */
+
+.skills__stars {
+    color: #e5e5e5;
+}
+
+.is-active {
+    color: #070707;
+}
+
+.container-skills__container {
+    max-width: 970px;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+.skills__row {
+    /* display: flex;
+    justify-content: center;
+    margin-left: 50px; */
+
+    display: flex;
+width: 970px;
+height: 230px;
+justify-content: space-around;
+align-items: center;
+gap: 97px;
+flex-shrink: 0;
+/* padding: 97px; */
+}
+
+h4 {
+    color: #828282;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.skills__item {
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+gap: 25px;
+}
+
+.skills__img {
+width: 80px;
+}
+/* Section Skills End */
+
+
+/* Section Portfolio */
+.portfolio {
+    max-width: 970px;
+}
+
+/* Section Portfolio End */
+.footer__title {
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #070707;
     text-align: center;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer__text {
+    width: 280px;
+    height: 46px;
+    flex-shrink: 0;
+    color: #070707;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer .text__footer {
+    color: #828282;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
